@@ -3,3 +3,7 @@
  and remove all the individual functions
 
 * add a test that provokes the bad conversion of residue number
+
+* currently, we use a hash with bool's to say if something is there. We should use a struct{} instead.
+
+* if we read the file via mmap, the scanning would be easier.
